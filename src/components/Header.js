@@ -4,17 +4,17 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-code"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Sergio Nicolás Sotelo</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          <b>Full Stack Developer 💻 | Sworn Translator En-SP 📚</b>
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          <b>HTML | CSS | JavaScript | React | Redux | Node | Express |SQL</b>
+          <br />
+          Gamer 🎮 | Pizza lover 🍕
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            About
           </button>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Projects
           </button>
         </li>
         <li>
@@ -44,10 +44,10 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Resume
           </button>
         </li>
-        <li>
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('contact')
@@ -55,7 +55,7 @@ const Header = props => (
           >
             Contact
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   </header>

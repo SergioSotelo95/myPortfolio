@@ -73,6 +73,19 @@
 			}
 		}
 
+		&.mitad {
+			display: block;
+			justify-content: center;
+			align-items: center;
+			margin: (_size(element-margin) * 1.25) 25%;
+			//width: 50%;
+			
+			img {
+				border-radius: 5%;
+				width: 100%;
+			}
+		}
+
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;
