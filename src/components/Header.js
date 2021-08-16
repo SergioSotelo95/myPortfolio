@@ -13,12 +13,11 @@ const Header = props => (
           <b>Full Stack Developer 💻 | Sworn Translator En-SP 📚</b>
           <br />
           <b>HTML | CSS | JavaScript | React | Redux | Node | Express | SQL</b>
-          <br />
-          Gamer 🎮 | Pizza lover 🍕
         </p>
+        <p>Gamer 🎮 | Pizza lover 🍕</p>
       </div>
     </div>
-    <nav>
+    <nav display="flex" justifyContent="center" alignItems="center">
       <ul>
         <li>
           <button
