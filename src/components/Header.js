@@ -12,7 +12,7 @@ const Header = props => (
         <p>
           <b>Full Stack Developer 💻 | Sworn Translator En-SP 📚</b>
           <br />
-          <b>HTML | CSS | JavaScript | React | Redux | Node | Express |SQL</b>
+          <b>HTML | CSS | JavaScript | React | Redux | Node | Express | SQL</b>
           <br />
           Gamer 🎮 | Pizza lover 🍕
         </p>
