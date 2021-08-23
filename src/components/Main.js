@@ -5,6 +5,7 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import weather from '../images/Weather.jpeg'
 import food from '../images/Food.jpeg'
+import healthier from '../images/Healthier.jpeg'
 import español from '../images/CVEsp.jpeg'
 import english from '../images/CVEng.jpeg'
 
@@ -152,11 +153,11 @@ class Main extends React.Component {
           </p>
           <h2 className="major">Healthier Club</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={healthier} alt="" />
           </span>
           <p>
-            <a>Link to app</a><br />
-            <a>Link to repo</a><br />
+            <a href="https://healthier.vercel.app">Link to app</a><br />
+            <a href="https://github.com/Healthier-Group/Healthier">Link to repo</a><br />
             My biggest proyect yet. This is an e-commerce built from scratch along with six more people in which people can publish and buy healty products. They can also search, filter, and order the products as well as add them to a shopping cart or a wishlist. It also has functions for administrators and makes use of other different technologies to buy products and create records in a database. <br />
             Tech used: React, Redux, Node, Express, Postgres, Sequelize, Material UI, and libraries such as NodeMailer, MercadoPago Checkout pro, among others. 
           </p>
